@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+i {
+  pointer-events: none;
+}
+
+body {
+  background: #e2af79;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 2rem 0;
+  h1 {
+    color: rgb(56, 31, 12);
+    font-size: 3rem;
+  }
+  span{
+    font-size: 2rem;
+  }
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  div{
+    flex: 1 1 600px;
+    width: 100%;
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      input,
+      button {
+        border: none;
+        padding: 0.25rem 0.5rem;
+        font-size: 1.75rem;
+        margin: 0.1rem;
+      }
+      input[type="text"]{
+        min-width: 9rem;
+      }
+      input[type="number"] {
+        width: 50px;
+        text-align: center;
+      }
+    
+      /* Chrome, Safari, Edge, Opera */
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    
+      /* Firefox */
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
+    
+      button {
+        cursor: pointer;
+        background-color: rgb(0, 146, 114);
+        color: white;
+      }
+    }
+    p.po{
+      margin: 1rem 0;
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+  
+  section.right{
+    width: 100%;
+      flex-direction: column;
+      align-items: center;
+      flex: 1 1 600px;
+      section{
+        div.todo {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0.2rem 0rem;
+          transition: all 0.1s ease;
+      
+          p {
+            background-color: white;
+            color: black;
+            padding: 0.25rem 0.5rem;
+            font-size: 1.75rem;
+          }
+      
+          p.todo-text {
+            width: 50%;
+          }
+          p.todo-time {
+            width: 20%;
+            text-align: center;
+          }
+          button {
+            padding: 0.25rem 0.5rem;
+            font-size: 1.75rem;
+            border: none;
+            cursor: pointer;
+            color: white;
+          }
+      
+          button.complete {
+            background-color: rgb(50, 255, 50);
+          }
+          button.trash {
+            background-color: red;
+          }
+        }
+      }
+    div.sort {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem 0rem;
+    
+      button {
+        cursor: pointer;
+        background-color: rgb(0, 146, 114);
+        color: white;
+        border: none;
+        padding: 0.25rem 0.5rem;
+        font-size: 1.75rem;
+      }
+    }
+  }
+  
+.done {
+  opacity: 0.5;
+  text-decoration: line-through;
+  text-decoration-thickness: 0.2rem;
+}
+}
+
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleDown {
+  to {
+    transform: scale(0);
+  }
+}
+@media screen and(max-width:600px){
+  main{
+    div{
+      form{
+          input,button{
+          font-size: 1.25rem;
+          }
+      }
+    }
+    section.right{
+      section{
+        div.todo{
+          p{
+            font-size: 1.25rem;
+          }
+        }
+      }
+    }
+  }
+}
