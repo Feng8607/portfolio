@@ -24,8 +24,8 @@
             text-decoration: none;
             margin: 0.5rem;
             .nav__logo-img{
-                width: 5vw;
-               
+                width: 4rem;
+               height: 4rem;
             }
         }
         .nav__menu{
@@ -41,7 +41,7 @@
                     .nav__link{
                         text-decoration: none;
                         color: black;
-                        font-size: 2rem;
+                        font-size: 1.75rem;
                     }
                     .nav__link:hover{
                         color:#d38736;
@@ -49,7 +49,7 @@
                 }
             }
             .nav_close{
-                font-size: 3rem;
+                font-size: 2rem;
                 color: white;
                 position: absolute;
                 top: 1rem;
@@ -68,7 +68,7 @@
     }
     .nav_toggle{
         
-        font-size: 3rem;
+        font-size: 2rem;
         cursor: pointer;
     }
 }
@@ -125,7 +125,7 @@ section.main{
         align-items: center;
         text-align: center; /*字體置中*/
         h2{
-            font-size: 2rem;
+            font-size: 1.75rem;
         }
         .cards {
             display: flex;
@@ -159,7 +159,7 @@ section.main{
                     box-shadow: 3px 2px 5px 2px #888888;
                   }
                   h4 {
-                    font-size: 2rem;
+                    font-size: 1.75rem;
                     margin: 1rem 0;
                   }
                   p {
@@ -181,10 +181,10 @@ section.main2{
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-top: 8rem;
+    padding-top: 5rem;
     background-color: rgb(215, 233, 250);
     h2.title{
-        font-size: 3rem;
+        font-size: 2.5rem;
         border-top: 4px solid black;
     }
     section.Second{
@@ -196,7 +196,7 @@ section.main2{
         }
         section.second2{
             flex: 1 1 450px;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             display: flex;
             align-items: center;
         }
@@ -214,6 +214,9 @@ section.main2{
             .card-body{
                 text-align: center;
                 margin: 1.5rem;
+                p{
+                    font-size: 1.25rem;
+                }
             }
             img{
                 width: 20vw;
@@ -281,9 +284,9 @@ section.main3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 8rem;
+    padding-top: 5rem;
     h2{
-        font-size: 3rem;
+        font-size: 2.5rem;
         border-top: 4px solid black;
     }
     section.third{
@@ -299,7 +302,7 @@ section.main3{
           background-color: black;
         }
         p{
-            font-size: 1.5rem;
+            font-size: 1.25rem;
         }
         .cards{
             display: flex;
@@ -319,13 +322,13 @@ section.main3{
               background-color: antiquewhite;
               
               p{
-                  font-size: 1.5rem;
+                  font-size: 1.25rem;
               }
               a{
                   display: flex;
                   align-items: center;
                   background-color: #3bf0e5;
-                  padding: 1.5rem;
+                  padding: 1.25rem;
                   text-decoration: none;
                   color: black;
                   font-weight: 700;
@@ -354,11 +357,11 @@ section.main4{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 8rem;
+    padding-top: 5rem;
     width: 100%;
      h2.title{
          text-align: center;
-         font-size: 3rem;
+         font-size: 2.5rem;
          border-top: 4px solid black;
      }
      section.fourth{
@@ -513,10 +516,7 @@ section.main4{
     header{
         .nav__container{
             .nav__logo{
-                font-size: 2rem;
-                .nav__logo-img{
-                    width: 10vw;
-                }
+                font-size: 1.5rem;
             }
             .nav__menu{
                 position: fixed;
@@ -528,6 +528,13 @@ section.main4{
                 transition: all 0.5s;
                 border-bottom-right-radius: 10%;
                 border-bottom-left-radius: 10%;
+                .nav__list{
+                    .nav__item{
+                        .nav__link{
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
             }
             .show-menu{
                 right: 0;
@@ -559,7 +566,7 @@ section.main4{
         }
         /*-------------main2---------------*/
         section.main2{
-            padding-top: 5rem;
+            padding-top: 5.5rem;
             .buttom{
                 .swiper{
                     width: 80vw;
@@ -587,7 +594,7 @@ section.main4{
         }
         /*-------------main3---------------*/
         section.main3{
-            padding-top: 5rem;
+            padding-top: 5.5rem;
             section.third{
                 .cards{
                     .card{
@@ -606,7 +613,7 @@ section.main4{
             }
         }
         section.main4{
-            padding-top: 5rem;
+            padding-top: 5.5rem;
         }
 }
 @media screen and (min-width: 900px){
@@ -634,6 +641,15 @@ section.main4{
     
     .nav_close,.nav_toggle{
         display: none;
+    }
+}
+@media screen and(max-width:440px){
+    section.main{
+        section.backImage{
+            h3{
+                font-size: 2.5rem;
+            }
+        }
     }
 }
 /*===========滑順滑軌往上================*/

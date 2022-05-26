@@ -30,7 +30,7 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 const sr = ScrollReveal({
   duration: 2000,
-  reset: true,
+  reset: false,
 });
 sr.reveal(`.fontleft`, {
   origin: "top",

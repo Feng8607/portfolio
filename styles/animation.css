@@ -110,4 +110,11 @@ svg {
     fill: #56c2b9;
   }
 }
+
+@media screen and (max-width: 625px) {
+  div.animation .logo svg {
+    width: 15vw;
+    height: 15vw;
+  }
+}
 /*# sourceMappingURL=animation.css.map */

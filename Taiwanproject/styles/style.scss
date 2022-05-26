@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Noto Sans TC", sans-serif;
+    border: 0.1px red solid;
   } 
 h1,
 h2,
@@ -27,7 +28,7 @@ header {
     .headertitle {
         padding: 1.5rem 0 0 1.5rem;
         background-color: #de9e5a;
-        font-size: 2.5rem;
+        font-size: 2.25rem;
       
         a{
             text-decoration: none;
@@ -102,28 +103,36 @@ main {
             flex: 1 1 250px;
             width: 100%;
             h4 {
-                font-size: 2rem;
+                font-size: 1.75rem;
                 text-align: center;
               }
               p {
-                  font-size: 1.5rem;
+                  font-size: 1.25rem;
                 margin: 1rem 0rem;
               }
               .map {
                 margin-top: 1.5rem;
                 border-radius: 30px;
-                width: 20rem;
-                height: 20rem;
+                width: 15vw;
+                height: 15vw;
               }
           }
         section.left {
             flex: 4 1 550px;
             width: 100%;
             p{
-                font-size: 1.5rem;
+                font-size: 1.25rem;
+            }
+            .fontleft{
+                margin: 1rem 0;
+                border: 0.1px solid black;
             }
             .chat {
+                h2{
+                    font-size: 1.75rem;
+                }
                 p{
+                    font-size: 1.25rem;
                     margin: 1rem 0;
                 }
                 .columnchart_material{
@@ -135,7 +144,7 @@ main {
           }
           section.top{
               h2{
-                  font-size: 2.25rem;
+                  font-size: 1.75rem;
               }
               p{
                   font-size: 1.25rem;
@@ -163,30 +172,36 @@ main {
           section.buttom{
               display: flex;
               flex-wrap: wrap;
+              h2{
+                  font-size: 1.75rem;
+              }
               section.left3,section.right3, section.middle3{
                 padding: 1.5rem 1rem;
                 }
             section.left3{
                 flex: 1 1 400px;
                 p{
-                    font-size: 1.5rem;
+                    font-size: 1.25rem;
+                    font-weight: 550;
                 }
             }
             section.middle3{
                 flex: 1 1 400px;
                 p{
-                    font-size: 1.5rem;
+                    font-size: 1.25rem;
+                    font-weight: 550;
                 }
             }
             section.right3{
                 flex: 1 1 400px;
                 p{
-                    font-size:  1.5rem;
+                    font-size:  1.25rem;
+                    font-weight: 550;
                 }
             }
           }
          h2.Ta4{
-             font-size: 2rem;
+             font-size: 1.75rem;
              width: 100%;
             
          }
@@ -196,7 +211,8 @@ main {
          section.left4{
              flex: 3 1 600px;
              p{
-                 font-size: 1.5rem;
+                 font-size: 1.25rem;
+                 font-weight: 550;
                  margin: 0.25rem 0;
              }
          }
@@ -238,7 +254,7 @@ main.fivemain{
         .cardhead{
             width: 100%;
             h3.title5{
-                font-size: 2rem;
+                font-size: 1.75rem;
             }
                 nav{
                     li{
@@ -253,7 +269,7 @@ main.fivemain{
             justify-content: flex-end;
             width: 100%;
             h3.title5{
-                font-size: 2rem;
+                font-size: 1.75rem;
             }
            nav{
                width: 100%;
@@ -264,7 +280,7 @@ main.fivemain{
            }
         }
         h3.title5{
-            font-size: 2rem;
+            font-size: 1.75rem;
         }
     }
     form{
@@ -305,7 +321,7 @@ main.fivemain{
         }
     }
     h4.tel5{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 }
 .scrollup{
@@ -420,6 +436,14 @@ footer {
    
   }
   @media screen and(max-width:768px){
+      main{
+          section.right{
+              .map{
+                  height: 50vw;
+                  width: 50vw
+              }
+          }
+      }
     footer{
         nav.link{
             a{
@@ -554,6 +578,16 @@ footer {
     }
     }
 }
+@media screen and(max-width: 430px){
+    header{
+        .headertitle{
+            font-size: 1.5rem;
+        }
+        .headertext{
+            font-size: 1.25rem;
+        }
+    }
+}
   @media screen and(max-width: 1024px){
     main{
         section.left{
@@ -609,6 +643,37 @@ footer {
             }
         }
         }
+  }
+  @media screen and(max-width:889px){
+      header{
+          .headertext{
+            padding: 0 0 0.5rem 0.5rem;
+          }
+          .headertitle{
+            padding: 0.5rem 0 0 0.5rem;
+          }
+      }
+      main{
+        section.left{
+            padding: 0 0 1.5rem 0;
+        }
+        .section.right{
+            padding: 1.5rem 0;
+        }
+          section.buttom{
+            section.left3,section.right3, section.middle3{
+                padding: 1.5rem 0;
+                }
+          }
+          section.right4,section.left4{
+            padding: 1.5rem 0;
+        }
+      }
+      main.fivemain{
+          form{
+              width: 100%;
+          }
+      }
   }
   @media screen and (min-width: 900px){
     header{

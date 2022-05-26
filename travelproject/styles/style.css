@@ -45,7 +45,8 @@ header .nav__container .nav__logo {
 }
 
 header .nav__container .nav__logo .nav__logo-img {
-  width: 5vw;
+  width: 4rem;
+  height: 4rem;
 }
 
 header .nav__container .nav__menu .nav__list {
@@ -69,7 +70,7 @@ header .nav__container .nav__menu .nav__list .nav__item {
 header .nav__container .nav__menu .nav__list .nav__item .nav__link {
   text-decoration: none;
   color: black;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 header .nav__container .nav__menu .nav__list .nav__item .nav__link:hover {
@@ -77,7 +78,7 @@ header .nav__container .nav__menu .nav__list .nav__item .nav__link:hover {
 }
 
 header .nav__container .nav__menu .nav_close {
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
   position: absolute;
   top: 1rem;
@@ -94,7 +95,7 @@ header .nav_close, header .nav_toggle {
 }
 
 header .nav_toggle {
-  font-size: 3rem;
+  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -188,7 +189,7 @@ section.main section.second {
 }
 
 section.main section.second h2 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 section.main section.second .cards {
@@ -248,7 +249,7 @@ section.main section.second .cards .card div {
 }
 
 section.main section.second .cards .card h4 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   margin: 1rem 0;
 }
 
@@ -278,12 +279,12 @@ section.main2 {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  padding-top: 8rem;
+  padding-top: 5rem;
   background-color: #d7e9fa;
 }
 
 section.main2 h2.title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   border-top: 4px solid black;
 }
 
@@ -304,7 +305,7 @@ section.main2 section.Second section.second2 {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 450px;
           flex: 1 1 450px;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -341,6 +342,10 @@ section.main2 section.Second section.card2 {
 section.main2 section.Second section.card2 .card-body {
   text-align: center;
   margin: 1.5rem;
+}
+
+section.main2 section.Second section.card2 .card-body p {
+  font-size: 1.25rem;
 }
 
 section.main2 section.Second section.card2 img {
@@ -437,11 +442,11 @@ section.main3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 8rem;
+  padding-top: 5rem;
 }
 
 section.main3 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   border-top: 4px solid black;
 }
 
@@ -470,7 +475,7 @@ section.main3 section.third .line {
 }
 
 section.main3 section.third p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 section.main3 section.third .cards {
@@ -510,7 +515,7 @@ section.main3 section.third .cards .card {
 }
 
 section.main3 section.third .cards .card p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 section.main3 section.third .cards .card a {
@@ -521,7 +526,7 @@ section.main3 section.third .cards .card a {
       -ms-flex-align: center;
           align-items: center;
   background-color: #3bf0e5;
-  padding: 1.5rem;
+  padding: 1.25rem;
   text-decoration: none;
   color: black;
   font-weight: 700;
@@ -559,13 +564,13 @@ section.main4 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 8rem;
+  padding-top: 5rem;
   width: 100%;
 }
 
 section.main4 h2.title {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   border-top: 4px solid black;
 }
 
@@ -803,10 +808,7 @@ footer .copyright {
 
 @media screen and (max-width: 899px) {
   header .nav__container .nav__logo {
-    font-size: 2rem;
-  }
-  header .nav__container .nav__logo .nav__logo-img {
-    width: 10vw;
+    font-size: 1.5rem;
   }
   header .nav__container .nav__menu {
     position: fixed;
@@ -819,6 +821,9 @@ footer .copyright {
     transition: all 0.5s;
     border-bottom-right-radius: 10%;
     border-bottom-left-radius: 10%;
+  }
+  header .nav__container .nav__menu .nav__list .nav__item .nav__link {
+    font-size: 1.5rem;
   }
   header .nav__container .show-menu {
     right: 0;
@@ -842,7 +847,7 @@ footer .copyright {
   }
   /*-------------main2---------------*/
   section.main2 {
-    padding-top: 5rem;
+    padding-top: 5.5rem;
   }
   section.main2 .buttom .swiper {
     width: 80vw;
@@ -864,7 +869,7 @@ footer .copyright {
   }
   /*-------------main3---------------*/
   section.main3 {
-    padding-top: 5rem;
+    padding-top: 5.5rem;
   }
   section.main3 section.third .cards .card {
     margin: 1rem 0;
@@ -877,7 +882,7 @@ footer .copyright {
     padding: 0.5rem;
   }
   section.main4 {
-    padding-top: 5rem;
+    padding-top: 5.5rem;
   }
 }
 
@@ -906,6 +911,12 @@ footer .copyright {
   }
   .nav_close, .nav_toggle {
     display: none;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  section.main section.backImage h3 {
+    font-size: 2.5rem;
   }
 }
 

@@ -4,6 +4,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Noto Sans TC", sans-serif;
+  border: 0.1px red solid;
 }
 
 h1,
@@ -39,7 +40,7 @@ header .headertext {
 header .headertitle {
   padding: 1.5rem 0 0 1.5rem;
   background-color: #de9e5a;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
 
 header .headertitle a {
@@ -142,20 +143,20 @@ main section.right {
 }
 
 main section.right h4 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   text-align: center;
 }
 
 main section.right p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 1rem 0rem;
 }
 
 main section.right .map {
   margin-top: 1.5rem;
   border-radius: 30px;
-  width: 20rem;
-  height: 20rem;
+  width: 15vw;
+  height: 15vw;
 }
 
 main section.left {
@@ -166,10 +167,20 @@ main section.left {
 }
 
 main section.left p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+}
+
+main section.left .fontleft {
+  margin: 1rem 0;
+  border: 0.1px solid black;
+}
+
+main section.left .chat h2 {
+  font-size: 1.75rem;
 }
 
 main section.left .chat p {
+  font-size: 1.25rem;
   margin: 1rem 0;
 }
 
@@ -180,7 +191,7 @@ main section.left .chat .columnchart_material {
 }
 
 main section.top h2 {
-  font-size: 2.25rem;
+  font-size: 1.75rem;
 }
 
 main section.top p {
@@ -220,6 +231,10 @@ main section.buttom {
       flex-wrap: wrap;
 }
 
+main section.buttom h2 {
+  font-size: 1.75rem;
+}
+
 main section.buttom section.left3, main section.buttom section.right3, main section.buttom section.middle3 {
   padding: 1.5rem 1rem;
 }
@@ -231,7 +246,8 @@ main section.buttom section.left3 {
 }
 
 main section.buttom section.left3 p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 550;
 }
 
 main section.buttom section.middle3 {
@@ -241,7 +257,8 @@ main section.buttom section.middle3 {
 }
 
 main section.buttom section.middle3 p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 550;
 }
 
 main section.buttom section.right3 {
@@ -251,11 +268,12 @@ main section.buttom section.right3 {
 }
 
 main section.buttom section.right3 p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 550;
 }
 
 main h2.Ta4 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   width: 100%;
 }
 
@@ -270,7 +288,8 @@ main section.left4 {
 }
 
 main section.left4 p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 550;
   margin: 0.25rem 0;
 }
 
@@ -337,7 +356,7 @@ main.fivemain .tex .cardhead {
 }
 
 main.fivemain .tex .cardhead h3.title5 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 main.fivemain .tex .cardhead nav li {
@@ -360,7 +379,7 @@ main.fivemain .tex .cardbody {
 }
 
 main.fivemain .tex .cardbody h3.title5 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 main.fivemain .tex .cardbody nav {
@@ -373,7 +392,7 @@ main.fivemain .tex .cardbody nav li {
 }
 
 main.fivemain .tex h3.title5 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 main.fivemain form {
@@ -435,7 +454,7 @@ main.fivemain form button {
 }
 
 main.fivemain h4.tel5 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .scrollup {
@@ -583,6 +602,10 @@ footer nav.link a img {
 }
 
 @media screen and (max-width: 768px) {
+  main section.right .map {
+    height: 50vw;
+    width: 50vw;
+  }
   footer nav.link a img {
     width: 8vw;
     height: 8vw;
@@ -711,6 +734,15 @@ footer nav.link a img {
   }
 }
 
+@media screen and (max-width: 430px) {
+  header .headertitle {
+    font-size: 1.5rem;
+  }
+  header .headertext {
+    font-size: 1.25rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   main section.left .chat p {
     margin: 1rem 0;
@@ -769,6 +801,30 @@ footer nav.link a img {
   header .nav__container .show-menu {
     left: 0;
     opacity: 90%;
+  }
+}
+
+@media screen and (max-width: 889px) {
+  header .headertext {
+    padding: 0 0 0.5rem 0.5rem;
+  }
+  header .headertitle {
+    padding: 0.5rem 0 0 0.5rem;
+  }
+  main section.left {
+    padding: 0 0 1.5rem 0;
+  }
+  main .section.right {
+    padding: 1.5rem 0;
+  }
+  main section.buttom section.left3, main section.buttom section.right3, main section.buttom section.middle3 {
+    padding: 1.5rem 0;
+  }
+  main section.right4, main section.left4 {
+    padding: 1.5rem 0;
+  }
+  main.fivemain form {
+    width: 100%;
   }
 }
 
