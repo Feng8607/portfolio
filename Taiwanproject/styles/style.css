@@ -4,7 +4,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Noto Sans TC", sans-serif;
-  border: 0.1px red solid;
 }
 
 h1,
@@ -172,7 +171,6 @@ main section.left p {
 
 main section.left .fontleft {
   margin: 1rem 0;
-  border: 0.1px solid black;
 }
 
 main section.left .chat h2 {
