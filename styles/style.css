@@ -602,11 +602,24 @@ footer {
   text-align: center;
 }
 
-footer a {
+footer nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer nav a {
   padding: 0rem 1rem;
 }
 
-footer a img {
+footer nav a img {
   margin: 1rem;
   color: #7872fe;
 }
@@ -909,39 +922,7 @@ footer .copyright {
         flex-wrap: wrap;
   }
   main.main1 section.left ul.tags li.tag {
-    background: #929292;
-    border-radius: 3px 0 0 3px;
-    color: #242424;
-    display: inline-block;
-    height: 26px;
-    padding: 0 20px 0 23px;
-    position: relative;
-    margin: 0 10px 10px 0;
-    text-decoration: none;
-    font-size: 1.25rem;
-  }
-  main.main1 section.left ul.tags li.tag::before {
-    background: white;
-    border-radius: 50%;
-    height: 6px;
-    width: 6px;
-    content: " ";
-    position: absolute;
-    left: 10px;
-    top: 10px;
-  }
-  main.main1 section.left ul.tags li.tag::after {
-    background: white;
-    border-bottom: 13px solid transparent;
-    border-left: 10px solid #929292;
-    border-top: 13px solid transparent;
-    position: absolute;
-    content: " ";
-    right: 0;
-    top: 0;
-  }
-  main.main1 section.left ul.tags li.tag:hover {
-    cursor: pointer;
+    font-size: 1rem;
   }
   main.main1 section.left .edu {
     width: 100%;
@@ -960,36 +941,14 @@ footer .copyright {
     font-size: 1.75rem;
     font-weight: 500;
   }
-  main.main1 section.left .edu .edu_container .edu__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    text-align: center;
-  }
   main.main1 section.left .edu .edu_container .edu__content .education_year {
     text-align: end;
   }
   main.main1 section.left .edu .edu_container .edu__content .education_year, main.main1 section.left .edu .edu_container .edu__content .education__race {
     font-size: 1.25rem;
   }
-  main.main1 section.left .edu .edu_container .edu__content .education__time .education__rounder {
-    position: relative;
-    display: none;
-  }
   main.main1 section.left .edu .edu_container .edu__content .education__university {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   main.main1 section.right {
     -webkit-box-flex: 1;
