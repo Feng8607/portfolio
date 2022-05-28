@@ -205,7 +205,7 @@ main.main1 {
             .education__rounder::before{
               content: '';
               position:absolute;
-              transform: translate(-0.4rem , -0.4rem);
+              transform: translate(-0.35rem , -0.35rem);
               width: 1.5rem;
               height: 1.5rem;
               border: 1.5px coral solid;
@@ -216,7 +216,7 @@ main.main1 {
               height: 80%;
               width: 1.5px;
               background: coral;
-              transform: translate(0.5rem,0.2rem);
+              transform: translate(0.45rem,0.2rem);
             }
           }
           .education__university{
@@ -309,14 +309,14 @@ main.main2{
              .interval{
                min-width: 15rem;
                h5{
-                font-size: 1.5rem;
+                font-size: 1.75rem;
                 font-weight: 550;
                }
              }
              .description{
                h4{
                  color: #009688;
-                 font-size: 1.5rem;
+                 font-size: 1.75rem;
                  font-weight: 550;
                }
                p{
@@ -792,6 +792,9 @@ footer {
               font-size: 1.25rem;
               padding: 0 0 0 0.5rem;
             }
+            .title{
+              font-size: 1.5rem;
+            }
           }
         }
       }
@@ -827,13 +830,13 @@ footer {
                  min-width: 4rem;
                  font-weight: 400;
                  h5{
-                  font-size: 1.75rem;
+                  font-size: 1.25rem;
                  }
                }
                .description{
                  h4{
                    color: #009688;
-                   font-size: 1.75rem;
+                   font-size: 1.5rem;
                  }
                  p{
                    font-size: 1.25rem;

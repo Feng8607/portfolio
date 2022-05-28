@@ -289,8 +289,8 @@ main.main1 section.left .edu .edu_container .edu__content .education__time .educ
 main.main1 section.left .edu .edu_container .edu__content .education__time .education__rounder::before {
   content: '';
   position: absolute;
-  -webkit-transform: translate(-0.4rem, -0.4rem);
-          transform: translate(-0.4rem, -0.4rem);
+  -webkit-transform: translate(-0.35rem, -0.35rem);
+          transform: translate(-0.35rem, -0.35rem);
   width: 1.5rem;
   height: 1.5rem;
   border: 1.5px coral solid;
@@ -302,8 +302,8 @@ main.main1 section.left .edu .edu_container .edu__content .education__time .educ
   height: 80%;
   width: 1.5px;
   background: coral;
-  -webkit-transform: translate(0.5rem, 0.2rem);
-          transform: translate(0.5rem, 0.2rem);
+  -webkit-transform: translate(0.45rem, 0.2rem);
+          transform: translate(0.45rem, 0.2rem);
 }
 
 main.main1 section.left .edu .edu_container .edu__content .education__university {
@@ -438,13 +438,13 @@ main.main2 section.left section.buttom .exper .content .interval {
 }
 
 main.main2 section.left section.buttom .exper .content .interval h5 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 550;
 }
 
 main.main2 section.left section.buttom .exper .content .description h4 {
   color: #009688;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 550;
 }
 
@@ -982,6 +982,9 @@ footer .copyright {
     font-size: 1.25rem;
     padding: 0 0 0 0.5rem;
   }
+  main.main2 section.left section.table table tr .title {
+    font-size: 1.5rem;
+  }
   main.main2 section.left section.buttom .title {
     font-size: 1.75rem;
   }
@@ -1024,11 +1027,11 @@ footer .copyright {
     font-weight: 400;
   }
   main.main2 section.left section.buttom .exper .content .interval h5 {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
   }
   main.main2 section.left section.buttom .exper .content .description h4 {
     color: #009688;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   main.main2 section.left section.buttom .exper .content .description p {
     font-size: 1.25rem;
