@@ -118,6 +118,7 @@ main {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 1.5rem;
+  min-height: 65vh;
 }
 
 main section.left, main .section.right {
