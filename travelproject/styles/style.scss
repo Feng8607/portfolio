@@ -87,6 +87,8 @@ section.main {
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 100%;
+    min-height: 90vh;
     .filter {
       background-color: rgba(0, 0, 0, 0.2);
       width: 100%;

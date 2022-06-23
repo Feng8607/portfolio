@@ -71,14 +71,15 @@ header .nav__container .nav__menu .nav__list .nav__item .nav__link {
   color: black;
   font-size: 1.75rem;
   position: relative;
+  cursor: pointer;
 }
 
 header .nav__container .nav__menu .nav__list .nav__item .nav__link:hover {
-  color: bisque;
+  color: rgba(255, 228, 196, 0.849);
 }
 
 header .nav__container .nav__menu .nav__list .nav__item .nav__link::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 3px;
@@ -140,7 +141,8 @@ header .nav__container .show-menu {
   right: 0;
 }
 
-header .nav_close, header .nav_toggle {
+header .nav_close,
+header .nav_toggle {
   color: #009688;
 }
 
@@ -266,7 +268,8 @@ main.main1 section.left .edu .edu_container .edu__content .education_year {
   text-align: end;
 }
 
-main.main1 section.left .edu .edu_container .edu__content .education_year, main.main1 section.left .edu .edu_container .edu__content .education__race {
+main.main1 section.left .edu .edu_container .edu__content .education_year,
+main.main1 section.left .edu .edu_container .edu__content .education__race {
   font-size: 1.75rem;
   font-weight: 550;
 }
@@ -287,7 +290,7 @@ main.main1 section.left .edu .edu_container .edu__content .education__time .educ
 }
 
 main.main1 section.left .edu .edu_container .edu__content .education__time .education__rounder::before {
-  content: '';
+  content: "";
   position: absolute;
   -webkit-transform: translate(-0.35rem, -0.35rem);
           transform: translate(-0.35rem, -0.35rem);
@@ -332,8 +335,8 @@ main.main1 section.right img {
   height: 20vw;
   -webkit-box-shadow: 2px 15px 10px gray;
           box-shadow: 2px 15px 10px gray;
-  -webkit-transition: all 1S ease-in-out;
-  transition: all 1S ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 main.main1 section.right .mypic:hover {
@@ -356,7 +359,8 @@ main.main2 section.left {
           flex: 3 1 500px;
 }
 
-main.main2 section.left section.table, main.main2 section.left section.buttom {
+main.main2 section.left section.table,
+main.main2 section.left section.buttom {
   margin: 1rem;
 }
 
@@ -811,7 +815,7 @@ footer .copyright {
     font-size: 1rem;
   }
   header .nav__container .nav__menu .nav__list .nav__link::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 0;
     height: 3px;
@@ -825,7 +829,8 @@ footer .copyright {
   header .nav__container .nav__menu .nav__list .nav__link:hover::after {
     width: 100%;
   }
-  .nav_close, .nav_toggle {
+  .nav_close,
+  .nav_toggle {
     display: none;
   }
 }
@@ -944,7 +949,8 @@ footer .copyright {
   main.main1 section.left .edu .edu_container .edu__content .education_year {
     text-align: end;
   }
-  main.main1 section.left .edu .edu_container .edu__content .education_year, main.main1 section.left .edu .edu_container .edu__content .education__race {
+  main.main1 section.left .edu .edu_container .edu__content .education_year,
+  main.main1 section.left .edu .edu_container .edu__content .education__race {
     font-size: 1.25rem;
   }
   main.main1 section.left .edu .edu_container .edu__content .education__university {
@@ -972,7 +978,8 @@ footer .copyright {
     -webkit-box-shadow: 2px 15px 10px gray;
             box-shadow: 2px 15px 10px gray;
   }
-  main.main2 section.left section.table, main.main2 section.left section.buttom {
+  main.main2 section.left section.table,
+  main.main2 section.left section.buttom {
     margin: 0.5rem;
   }
   main.main2 section.left section.table {

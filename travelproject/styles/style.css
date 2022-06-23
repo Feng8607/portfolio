@@ -90,7 +90,8 @@ header .nav__container .show-menu {
   right: 0;
 }
 
-header .nav_close, header .nav_toggle {
+header .nav_close,
+header .nav_toggle {
   color: white;
 }
 
@@ -116,8 +117,6 @@ section.main {
 }
 
 section.main section.backImage {
-  min-height: 90vh;
-  width: 100%;
   background-image: url(../Pictures/landscape.jpg);
   background-size: cover;
   background-position: center;
@@ -137,6 +136,8 @@ section.main section.backImage {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  width: 100%;
+  min-height: 90vh;
 }
 
 section.main section.backImage .filter {
@@ -297,7 +298,8 @@ section.main2 section.Second {
       flex-wrap: wrap;
 }
 
-section.main2 section.Second section.second2, section.main2 section.Second section.card {
+section.main2 section.Second section.second2,
+section.main2 section.Second section.card {
   margin: 0 1rem;
 }
 
@@ -406,7 +408,8 @@ section.main2 .buttom .swiper .swiper-slide:hover {
           box-shadow: 10px 10px 10px gray;
 }
 
-section.main2 .buttom .swiper .swiper-button-next, section.main2 .buttom .swiper .swiper-button-prev {
+section.main2 .buttom .swiper .swiper-button-next,
+section.main2 .buttom .swiper .swiper-button-prev {
   top: initial;
   bottom: 0;
   width: initial;
@@ -416,7 +419,8 @@ section.main2 .buttom .swiper .swiper-button-next, section.main2 .buttom .swiper
   border-radius: 0.5rem;
 }
 
-section.main2 .buttom .swiper .swiper-button-next .bx, section.main2 .buttom .swiper .swiper-button-prev .bx {
+section.main2 .buttom .swiper .swiper-button-next .bx,
+section.main2 .buttom .swiper .swiper-button-prev .bx {
   font-size: 1rem;
 }
 
@@ -509,8 +513,8 @@ section.main3 section.third .cards .card {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transition: all 0.5S ease-in;
-  transition: all 0.5S ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
   background-color: antiquewhite;
 }
 
@@ -664,11 +668,13 @@ section.main4 section.fourth .right4 form ul li {
   margin: 1rem 0 1rem 0;
 }
 
-section.main4 section.fourth .right4 form ul li input[type=text]:focus {
+section.main4 section.fourth .right4 form ul li input[type="text"]:focus {
   background-color: lightblue;
 }
 
-section.main4 section.fourth .right4 form ul li input[type=text], section.main4 section.fourth .right4 form ul li input[type=tel], section.main4 section.fourth .right4 form ul li textarea {
+section.main4 section.fourth .right4 form ul li input[type="text"],
+section.main4 section.fourth .right4 form ul li input[type="tel"],
+section.main4 section.fourth .right4 form ul li textarea {
   width: 100%;
 }
 
@@ -763,7 +769,8 @@ footer .container .footer-subs input[type="submit"] {
   color: #ffffff;
 }
 
-footer .container .footer-subs input[type="email"], footer .container .footer-subs input[type="submit"] {
+footer .container .footer-subs input[type="email"],
+footer .container .footer-subs input[type="submit"] {
   border: none;
   padding: 0.5rem 1rem;
 }
@@ -909,7 +916,8 @@ footer .copyright {
     position: relative;
     font-size: 1rem;
   }
-  .nav_close, .nav_toggle {
+  .nav_close,
+  .nav_toggle {
     display: none;
   }
 }
