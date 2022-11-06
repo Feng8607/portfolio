@@ -4,7 +4,7 @@
 - 旅遊租借(flex跟排版，使用插件Swipers、scrollreveal)
 - 代辦清單todo-list(flex，用localstorage儲存資料，使用合併排序法(Merge Sort)把資料依序排列)
 # Live Demo
-https://sheng-feng.github.io/portfolio/
+https://feng8607.github.io/portfolio/
 # 使用技能
 - HTML
 - SCSS
