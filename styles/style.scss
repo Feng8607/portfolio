@@ -235,10 +235,8 @@ main.main1 {
     align-items: center;
     img {
       margin: 1rem 0 1rem 0;
-      border-radius: 50%;
-      width: 20vw;
-      height: 20vw;
-      box-shadow: 2px 15px 10px gray;
+      width: 30vw;
+      height: 30vw;
       transition: all 1s ease-in-out;
     }
     .mypic:hover {
@@ -338,8 +336,8 @@ main.main2 {
     section.picture {
       position: relative;
       img {
-        width: 20vw;
-        height: 55vh;
+        width: 30vw;
+        height: 30vw;
       }
       div.orangeRect {
         width: 20vw;
@@ -648,8 +646,8 @@ footer {
   main.main1 {
     section.right {
       img {
-        width: 30vw;
-        height: 30vw;
+        width: 50vw;
+        height: 50vw;
       }
     }
   }

@@ -42,7 +42,7 @@ var swiperPopular = new Swiper(".popular__container", {
 
 /*====================ScrollReveal=================*/
 const sr = ScrollReveal({
-  reset: true,
+  reset: false,
 });
 sr.reveal(`.title,.buttom`, {
   origin: "top",

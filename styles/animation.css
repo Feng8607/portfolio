@@ -1,21 +1,14 @@
 div.animation {
   width: 100%;
   height: 100vh;
-  background-color: #33a6e9;
+  background-color: rgb(51, 166, 233);
   position: fixed;
   top: 0;
   z-index: 15;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 div.animation .logo {
   text-align: center;
 }
@@ -92,29 +85,25 @@ svg {
     stroke-dashoffset: 0px;
   }
 }
-
 @-webkit-keyframes fill {
   from {
     fill: transparent;
   }
   to {
-    fill: #56c2b9;
+    fill: rgb(86, 194, 185);
   }
 }
-
 @keyframes fill {
   from {
     fill: transparent;
   }
   to {
-    fill: #56c2b9;
+    fill: rgb(86, 194, 185);
   }
 }
-
 @media screen and (max-width: 625px) {
   div.animation .logo svg {
     width: 15vw;
     height: 15vw;
   }
-}
-/*# sourceMappingURL=animation.css.map */
+}/*# sourceMappingURL=animation.css.map */

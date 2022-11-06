@@ -1,140 +1,207 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
-<head>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <head>
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
     <script type="text/javascript">
-      google.charts.load('current', {'packages':['bar']});
+      google.charts.load("current", { packages: ["bar"] });
       google.charts.setOnLoadCallback(drawChart);
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['影響因素', '鳥類', '哺乳類', '植物'],
-          ['棲地消失或破壞', 84, 78, 85],
-          ['捕獵或採集', 40, 38, 10],
-          ['非直接喪失', 20, 15, 19],
-          ['外來種入侵', 33, 12, 14],
-          ['天然災害', 17, 3, 5],
-          ['汙染', 12, 2, 3],
-          ['內在因素', 4, 34, 10]
+          ["影響因素", "鳥類", "哺乳類", "植物"],
+          ["棲地消失或破壞", 84, 78, 85],
+          ["捕獵或採集", 40, 38, 10],
+          ["非直接喪失", 20, 15, 19],
+          ["外來種入侵", 33, 12, 14],
+          ["天然災害", 17, 3, 5],
+          ["汙染", 12, 2, 3],
+          ["內在因素", 4, 34, 10],
         ]);
 
         var options = {
+          title: "鳥類、哺乳類、植物",
+          chartArea: { width: "50%" },
         };
 
-        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+        var chart = new google.charts.Bar(
+          document.getElementById("columnchart_material")
+        );
 
         chart.draw(data, google.charts.Bar.convertOptions(options));
       }
     </script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index,follow">
-    <meta name="description" content="此網站介紹台灣過去70年經濟發展與相關政策">
-    <meta name="author" content="SHENG FENG">
-    <base target="_top">
-    <link rel="stylesheet" href="twicon/twicon.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
+    <meta
+      name="description"
+      content="此網站介紹台灣過去70年經濟發展與相關政策"
+    />
+    <meta name="author" content="SHENG FENG" />
+    <base target="_top" />
+    <link rel="stylesheet" href="twicon/twicon.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- google font setting -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
-   
-    <link rel="shortcut icon" href="taiwanIcon.png">
-    <link rel="bookmark" href="taiwanIcon.png">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link href="fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="taiwanIcon.png" />
+    <link rel="bookmark" href="taiwanIcon.png" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet" />
     <title>台灣發展歷史網頁</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
     <!-- 標題 -->
     <header>
-        <h1 class="headertitle"><a href="#"><i class="twicon-main-island"></i>台灣生態發展與介紹</a></h1>
-        <h3 class="headertext">台灣生物多樣性保育工作與相關政策</h3>
-   
-    <!-- 導覽列-->
-        <nav class="nav__container">
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="./index.html" class=" nav__link" id="nav__link"><i class="twicon-main-island"></i> 首頁</a></li>
-                    <li class="nav__item"><a href="./second.html" class=" nav__link" id="nav__link"><i class="twicon-lovers-brg"></i>相關政策</a></li>
-                    <li class="nav__item"><a href="./third.html" class=" nav__link" id="nav__link"><i class="twicon-taipei101"></i> 面臨問題</a></li>
-                    <li class="nav__item"><a href="./fourth.html" class="nav__link" id="nav__link"><i class="twicon-nt-mus"></i>保育動植物</a></li>
-                    <li class="nav__item"><a href="./fifth.html" class=" nav__link" id="nav__link"><i class='bx bxs-briefcase-alt-2' ></i> 關於作者</a></li>
-                </ul>
-                <div class="nav_close" id="nav-close">
-                    <i class='bx bx-x'></i>
-                </div>
-            </div>
-            <div class="nav_toggle" id="nav-toggle"> 
-                <i class='bx bx-menu-alt-left'></i>
-            </div>
-        </nav>
-</header>
+      <h1 class="headertitle">
+        <a href="#"><i class="twicon-main-island"></i>台灣生態發展與介紹</a>
+      </h1>
+      <h3 class="headertext">台灣生物多樣性保育工作與相關政策</h3>
+
+      <!-- 導覽列-->
+      <nav class="nav__container">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link" id="nav__link"
+                ><i class="twicon-main-island"></i> 首頁</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="./second.html" class="nav__link" id="nav__link"
+                ><i class="twicon-lovers-brg"></i>相關政策</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="./third.html" class="nav__link" id="nav__link"
+                ><i class="twicon-taipei101"></i> 面臨問題</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="./fourth.html" class="nav__link" id="nav__link"
+                ><i class="twicon-nt-mus"></i>保育動植物</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="./fifth.html" class="nav__link" id="nav__link"
+                ><i class="bx bxs-briefcase-alt-2"></i> 關於作者</a
+              >
+            </li>
+          </ul>
+          <div class="nav_close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </nav>
+    </header>
     <!-- 主要內容 -->
     <main>
-        <section class="left">
-            <p class="fontleft">臺灣地處亞熱帶，氣候溫和、雨量豐沛，因受到地殼板塊活動及早期冰河之作用，
-                全島山巒綿亙，溪谷縱橫。複雜的地理、氣候等自然因素影響下，造就了多樣性的
-                生態環境，舉凡海洋、島嶼、河口、沼澤、湖泊、溪流、森林及農田等不一而足。
-                每一個生態系均孕育著豐富的物種與遺傳資源。以海岸環境為例，臺灣海岸線長達
-                1千6百公里，由於地理條件的不同，形成了珊瑚礁、岩岸、沙岸、泥岸及紅樹林等
-                多樣的海岸生態系，造就了臺灣豐富的海洋生物資源。而在內陸方面，由於高山聳立
-                ，形成兼具熱、暖、溫、寒垂直分布的溫度帶與各類森林植群，有利於由熱帶至寒帶
-                各地移棲進入臺灣的各類生物之生存；冷暖循環的冰河期的氣候變遷，使得臺灣如同
-                聚寶盆般聚集了大陸性及島嶼特有種的各類生物，而海峽的隔離，造成基因隔離，從
-                而促使亞種分化或新種形成，使臺灣地方雖小，生物種類繁多，並富含特有種（endemic species）。
-                </p>
-                <hr class="fontleft">
-                <p class="fontleft">近三、四十年裡，我國在就地保育(in situ)方面，陸續依〈文化資產保存法〉劃定18處
-                    自然保留區，依〈野生動物保育法〉劃定13處野生動物保護區、15處野生動物重要棲息
-                    環境，依〈國家公園法〉劃定6處國家公園，依〈臺灣省自然保護區設置管理辦法〉劃設
-                    35處國有林自然保護區，總計各類型保護區總面積約為687,451公頃（已扣除範圍重複部分
-                    ），約佔臺灣陸域面積的19.21％，其中包括連貫臺灣南北長達300公里的「中央山脈保育軸
-                    」綠色生態廊道。此外，海洋部份，漁業署至1996年已公告69處保護礁區。這些保護區域內
-                    生物資源的基礎調查工作已陸續完成，而生物資源監測的系統則在建立中。
-                   </p>
-                   <br>
-                   <div class="chat">
-                       <h2>生態多樣性(物種)的威脅</h2>
-                       <p>鳥類、哺乳類、植物</p>
-                       <div>
-                        <div class="columnchart_material" id="columnchart_material"></div>
-                       </div>
-                     </div>
-        </section>
-        <section class="right">
-            <h4>台灣地理位置小知識:
-                <br>你知道台灣在哪裡嗎?</h4>
-            <p>台灣是太平洋上的一個小島。 它毗鄰中國，在島上的原住民被認為是太平洋群島南島語族語系人民的起源。
-                台灣的陸地面積為13972公里，島上約有2380萬人居住，最主要通用語言為中文、閩南語、客家話。 </p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231271.97194975393!2d121.41263514593851!3d25.080711074004363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346802a4dcad07a3%3A0x5e5d62eef9e44a37!2z5paw5YyX5biC5p2_5qmL5Y2A5paw5YyX!5e0!3m2!1szh-TW!2stw!4v1653298345410!5m2!1szh-TW!2stw" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </main>
-    <footer id="aos" class="aos-init">
-        <div class="logo">
-            <i class="twicon-main-island"></i>
-            <h1>台灣生態發展</h1>
+      <section class="left">
+        <p class="fontleft">
+          臺灣地處亞熱帶，氣候溫和、雨量豐沛，因受到地殼板塊活動及早期冰河之作用，
+          全島山巒綿亙，溪谷縱橫。複雜的地理、氣候等自然因素影響下，造就了多樣性的
+          生態環境，舉凡海洋、島嶼、河口、沼澤、湖泊、溪流、森林及農田等不一而足。
+          每一個生態系均孕育著豐富的物種與遺傳資源。以海岸環境為例，臺灣海岸線長達
+          1千6百公里，由於地理條件的不同，形成了珊瑚礁、岩岸、沙岸、泥岸及紅樹林等
+          多樣的海岸生態系，造就了臺灣豐富的海洋生物資源。而在內陸方面，由於高山聳立
+          ，形成兼具熱、暖、溫、寒垂直分布的溫度帶與各類森林植群，有利於由熱帶至寒帶
+          各地移棲進入臺灣的各類生物之生存；冷暖循環的冰河期的氣候變遷，使得臺灣如同
+          聚寶盆般聚集了大陸性及島嶼特有種的各類生物，而海峽的隔離，造成基因隔離，從
+          而促使亞種分化或新種形成，使臺灣地方雖小，生物種類繁多，並富含特有種（endemic
+          species）。
+        </p>
+        <hr class="fontleft" />
+        <p class="fontleft">
+          近三、四十年裡，我國在就地保育(in
+          situ)方面，陸續依〈文化資產保存法〉劃定18處
+          自然保留區，依〈野生動物保育法〉劃定13處野生動物保護區、15處野生動物重要棲息
+          環境，依〈國家公園法〉劃定6處國家公園，依〈臺灣省自然保護區設置管理辦法〉劃設
+          35處國有林自然保護區，總計各類型保護區總面積約為687,451公頃（已扣除範圍重複部分
+          ），約佔臺灣陸域面積的19.21％，其中包括連貫臺灣南北長達300公里的「中央山脈保育軸
+          」綠色生態廊道。此外，海洋部份，漁業署至1996年已公告69處保護礁區。這些保護區域內
+          生物資源的基礎調查工作已陸續完成，而生物資源監測的系統則在建立中。
+        </p>
+        <br />
+        <div class="chat">
+          <h2>生態多樣性(物種)的威脅</h2>
+          <div>
+            <div class="columnchart_material" id="columnchart_material"></div>
+          </div>
         </div>
-            <nav>
-                <ul>
-                    <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
-                    <li><a href="#"><i class="fa-solid fa-user"></i>about</a></li>
-                    <li><a href="#"><i class="fa-solid fa-address-book"></i>Login</a></li>
-                    <li><a href="#"><i class="fa-solid fa-book"></i>contract</a></li>
-                </ul>
-            </nav>
-       <nav class="link">
-            <a href="#"><img src="資源包1/Icons/facebook.svg" alt="facebook" title="臉書專頁"></a> <!--title是用來讓人移到標誌時可已知道這是什麼-->
-           <a href="#"><img src="資源包1/Icons/instagram.svg" alt="instagram"></a>
-           <a href="#"><img src="資源包1/Icons/twitter.svg" alt="twitter"></a>
-           <a href="#"><img src="資源包1/Icons/youtube.svg" alt="youtube"></a>
-       </nav>
+      </section>
+      <section class="right">
+        <h4>台灣地理位置小知識: <br />你知道台灣在哪裡嗎?</h4>
+        <p>
+          台灣是太平洋上的一個小島。
+          它毗鄰中國，在島上的原住民被認為是太平洋群島南島語族語系人民的起源。
+          台灣的陸地面積為13972公里，島上約有2380萬人居住，最主要通用語言為中文、閩南語、客家話。
+        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231271.97194975393!2d121.41263514593851!3d25.080711074004363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346802a4dcad07a3%3A0x5e5d62eef9e44a37!2z5paw5YyX5biC5p2_5qmL5Y2A5paw5YyX!5e0!3m2!1szh-TW!2stw!4v1653298345410!5m2!1szh-TW!2stw"
+          class="map"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+    <footer id="aos" class="aos-init">
+      <div class="logo">
+        <i class="twicon-main-island"></i>
+        <h1>台灣生態發展</h1>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-user"></i>about</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-address-book"></i>Login</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-book"></i>contract</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="link">
+        <a href="#"
+          ><img
+            src="資源包1/Icons/facebook.svg"
+            alt="facebook"
+            title="臉書專頁"
+        /></a>
+        <!--title是用來讓人移到標誌時可已知道這是什麼-->
+        <a href="#"
+          ><img src="資源包1/Icons/instagram.svg" alt="instagram"
+        /></a>
+        <a href="#"><img src="資源包1/Icons/twitter.svg" alt="twitter" /></a>
+        <a href="#"><img src="資源包1/Icons/youtube.svg" alt="youtube" /></a>
+      </nav>
     </footer>
     <a href="#" class="scrollup" id="scroll-up">
-        <i class="fa-solid fa-arrow-up-from-bracket scrollup-icon"></i>
+      <i class="fa-solid fa-arrow-up-from-bracket scrollup-icon"></i>
     </a>
-</body>
-<script src="scrollreveal.js"></script>
-<script src="scrollreveal.min.js"></script>
-<script src="app.js"></script>
+  </body>
+  <script src="scrollreveal.js"></script>
+  <script src="scrollreveal.min.js"></script>
+  <script src="app.js"></script>
 </html>
