@@ -430,7 +430,6 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     a {
-      padding: 0rem 1rem;
       img {
         margin: 1rem;
         color: #7872fe;
@@ -477,7 +476,7 @@ footer {
         flex-direction: column;
         width: 100%;
         li {
-          padding: 1rem 0rem;
+          padding: 0.5rem 0rem;
         }
         div.project {
           li:hover #sub {
@@ -536,8 +535,8 @@ footer {
           display: flex;
           flex-direction: column;
           text-align: center;
-          row-gap: 1rem;
-          padding-top: 5rem;
+          row-gap: 0.75rem;
+          padding-top: 3.5rem;
           .nav__item {
             width: 100%;
             display: flex;
@@ -773,10 +772,8 @@ footer {
       align-items: center;
       img {
         margin: 1rem 0 1rem 0;
-        border-radius: 50%;
         width: 50vw;
         height: 50vw;
-        box-shadow: 2px 15px 10px gray;
       }
     }
   }

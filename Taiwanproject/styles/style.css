@@ -445,98 +445,6 @@ footer nav.link a img {
     width: auto;
   }
 }
-@media screen and (max-width: 280px) {
-  main section.left .columnchart_material {
-    width: 100%;
-  }
-  main section.right .map {
-    width: 100%;
-  }
-  main.fivemain {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 540px) {
-  main section.left .columnchart_material {
-    width: 100%;
-  }
-  main.fivemain .tex .cardhead h3.title5 {
-    font-size: 2rem;
-  }
-  main.fivemain .tex .cardhead nav li {
-    list-style-type: decimal;
-    font-size: 1rem;
-  }
-  main.fivemain .tex .cardbody {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 100%;
-  }
-  main.fivemain .tex .cardbody h3.title5 {
-    font-size: 2rem;
-  }
-  main.fivemain .tex .cardbody nav {
-    width: 100%;
-  }
-  main.fivemain .tex .cardbody nav li {
-    list-style-type: decimal;
-    font-size: 1.25rem;
-  }
-  main.fivemain .tex h3.title5 {
-    font-size: 2rem;
-  }
-  main.fivemain form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  main.fivemain form div {
-    margin: 0.25rem;
-  }
-  main.fivemain form div.sub {
-    display: flex;
-    justify-content: flex-end;
-  }
-  main.fivemain form select {
-    font-size: 1.25rem;
-  }
-  main.fivemain form label,
-main.fivemain form input,
-main.fivemain form textarea {
-    width: 80%;
-    font-size: 1.25rem;
-  }
-  main.fivemain form textarea {
-    resize: none;
-    vertical-align: top;
-  }
-  main.fivemain form input[type=reset] {
-    width: auto;
-    margin-right: 0.5rem;
-    padding: 0.5rem;
-    box-shadow: 2px 5px 5px gray;
-    cursor: pointer;
-  }
-  main.fivemain form button {
-    font-size: 1.25rem;
-    padding: 0.5rem;
-    margin-left: 0.5rem;
-    cursor: pointer;
-    box-shadow: 2px 5px 5px gray;
-  }
-  main.fivemain h4.tel5 {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (max-width: 430px) {
-  header .headertitle {
-    font-size: 1.5rem;
-  }
-  header .headertext {
-    font-size: 1.25rem;
-  }
-}
 @media screen and (max-width: 1024px) {
   main section.left .chat p {
     margin: 1rem 0;
@@ -622,6 +530,101 @@ main section.left4 {
   .nav_close,
 .nav_toggle {
     display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  main section.left .columnchart_material {
+    width: 100%;
+  }
+  main.fivemain .tex .cardhead h3.title5 {
+    font-size: 2rem;
+  }
+  main.fivemain .tex .cardhead nav li {
+    list-style-type: decimal;
+    font-size: 1rem;
+  }
+  main.fivemain .tex .cardbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  main.fivemain .tex .cardbody h3.title5 {
+    font-size: 2rem;
+  }
+  main.fivemain .tex .cardbody nav {
+    width: 100%;
+  }
+  main.fivemain .tex .cardbody nav li {
+    list-style-type: decimal;
+    font-size: 1.25rem;
+  }
+  main.fivemain .tex h3.title5 {
+    font-size: 2rem;
+  }
+  main.fivemain form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main.fivemain form div {
+    margin: 0.25rem;
+  }
+  main.fivemain form div.sub {
+    display: flex;
+    justify-content: flex-end;
+  }
+  main.fivemain form select {
+    font-size: 1.25rem;
+  }
+  main.fivemain form label,
+main.fivemain form input,
+main.fivemain form textarea {
+    width: 80%;
+    font-size: 1.25rem;
+  }
+  main.fivemain form textarea {
+    resize: none;
+    vertical-align: top;
+  }
+  main.fivemain form input[type=reset] {
+    width: auto;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 2px 5px 5px gray;
+    cursor: pointer;
+  }
+  main.fivemain form button {
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    box-shadow: 2px 5px 5px gray;
+  }
+  main.fivemain h4.tel5 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  header .headertitle {
+    font-size: 1.5rem;
+  }
+  header .headertext {
+    font-size: 1.25rem;
+  }
+  main .chat {
+    display: none;
+  }
+}
+@media screen and (max-width: 280px) {
+  main section.left .columnchart_material {
+    width: 100%;
+  }
+  main section.right .map {
+    width: 100%;
+  }
+  main.fivemain {
+    width: 100%;
   }
 }
 html {

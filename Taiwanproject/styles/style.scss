@@ -469,118 +469,7 @@ footer {
     }
   }
 }
-@media screen and(max-width: 280px) {
-  main {
-    section.left {
-      .columnchart_material {
-        width: 100%;
-      }
-    }
-    section.right {
-      .map {
-        width: 100%;
-      }
-    }
-  }
-  main.fivemain {
-    width: 100%;
-  }
-}
-@media screen and(max-width: 540px) {
-  main {
-    section.left {
-      .columnchart_material {
-        width: 100%;
-      }
-    }
-  }
-  main.fivemain {
-    .tex {
-      .cardhead {
-        h3.title5 {
-          font-size: 2rem;
-        }
-        nav {
-          li {
-            list-style-type: decimal;
-            font-size: 1rem;
-          }
-        }
-      }
-      .cardbody {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        width: 100%;
-        h3.title5 {
-          font-size: 2rem;
-        }
-        nav {
-          width: 100%;
-          li {
-            list-style-type: decimal;
-            font-size: 1.25rem;
-          }
-        }
-      }
-      h3.title5 {
-        font-size: 2rem;
-      }
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      div {
-        margin: 0.25rem;
-      }
-      div.sub {
-        display: flex;
-        justify-content: flex-end;
-      }
-      select {
-        font-size: 1.25rem;
-      }
-      label,
-      input,
-      textarea {
-        width: 80%;
-        font-size: 1.25rem;
-      }
-      textarea {
-        resize: none;
-        vertical-align: top;
-      }
-      input[type="reset"] {
-        width: auto;
-        margin-right: 0.5rem;
-        padding: 0.5rem;
-        box-shadow: 2px 5px 5px gray;
-        cursor: pointer;
-      }
-      button {
-        font-size: 1.25rem;
-        padding: 0.5rem;
-        margin-left: 0.5rem;
-        cursor: pointer;
-        box-shadow: 2px 5px 5px gray;
-      }
-    }
-    h4.tel5 {
-      font-size: 1.5rem;
-    }
-  }
-}
-@media screen and(max-width: 430px) {
-  header {
-    .headertitle {
-      font-size: 1.5rem;
-    }
-    .headertext {
-      font-size: 1.25rem;
-    }
-  }
-}
+
 @media screen and(max-width: 1024px) {
   main {
     section.left {
@@ -689,6 +578,123 @@ footer {
   .nav_close,
   .nav_toggle {
     display: none;
+  }
+}
+@media screen and(max-width: 540px) {
+  main {
+    section.left {
+      .columnchart_material {
+        width: 100%;
+      }
+    }
+  }
+  main.fivemain {
+    .tex {
+      .cardhead {
+        h3.title5 {
+          font-size: 2rem;
+        }
+        nav {
+          li {
+            list-style-type: decimal;
+            font-size: 1rem;
+          }
+        }
+      }
+      .cardbody {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+        h3.title5 {
+          font-size: 2rem;
+        }
+        nav {
+          width: 100%;
+          li {
+            list-style-type: decimal;
+            font-size: 1.25rem;
+          }
+        }
+      }
+      h3.title5 {
+        font-size: 2rem;
+      }
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      div {
+        margin: 0.25rem;
+      }
+      div.sub {
+        display: flex;
+        justify-content: flex-end;
+      }
+      select {
+        font-size: 1.25rem;
+      }
+      label,
+      input,
+      textarea {
+        width: 80%;
+        font-size: 1.25rem;
+      }
+      textarea {
+        resize: none;
+        vertical-align: top;
+      }
+      input[type="reset"] {
+        width: auto;
+        margin-right: 0.5rem;
+        padding: 0.5rem;
+        box-shadow: 2px 5px 5px gray;
+        cursor: pointer;
+      }
+      button {
+        font-size: 1.25rem;
+        padding: 0.5rem;
+        margin-left: 0.5rem;
+        cursor: pointer;
+        box-shadow: 2px 5px 5px gray;
+      }
+    }
+    h4.tel5 {
+      font-size: 1.5rem;
+    }
+  }
+}
+@media screen and(max-width: 430px) {
+  header {
+    .headertitle {
+      font-size: 1.5rem;
+    }
+    .headertext {
+      font-size: 1.25rem;
+    }
+  }
+  main {
+    .chat {
+      display: none;
+    }
+  }
+}
+@media screen and(max-width: 280px) {
+  main {
+    section.left {
+      .columnchart_material {
+        width: 100%;
+      }
+    }
+    section.right {
+      .map {
+        width: 100%;
+      }
+    }
+  }
+  main.fivemain {
+    width: 100%;
   }
 }
 html {

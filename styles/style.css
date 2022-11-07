@@ -429,9 +429,6 @@ footer nav {
   align-items: center;
   flex-wrap: wrap;
 }
-footer nav a {
-  padding: 0rem 1rem;
-}
 footer nav a img {
   margin: 1rem;
   color: #7872fe;
@@ -477,7 +474,7 @@ footer .copyright {
     width: 100%;
   }
   header nav ul li {
-    padding: 1rem 0rem;
+    padding: 0.5rem 0rem;
   }
   header nav ul div.project li:hover #sub {
     background-color: #eec5ad;
@@ -527,8 +524,8 @@ footer .copyright {
     display: flex;
     flex-direction: column;
     text-align: center;
-    row-gap: 1rem;
-    padding-top: 5rem;
+    row-gap: 0.75rem;
+    padding-top: 3.5rem;
   }
   header .nav__container .nav__menu .nav__list .nav__item {
     width: 100%;
@@ -714,10 +711,8 @@ main.main1 section.left .edu .edu_container .edu__content .education__race {
   }
   main.main1 section.right img {
     margin: 1rem 0 1rem 0;
-    border-radius: 50%;
     width: 50vw;
     height: 50vw;
-    box-shadow: 2px 15px 10px gray;
   }
   main.main2 section.left section.table,
 main.main2 section.left section.buttom {
